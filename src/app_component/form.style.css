@@ -1,0 +1,19 @@
+form{
+    margin-top: 3rem;
+}
+
+form input[name="city"],
+form input[name="country"] {
+    width: 300px;
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+    border: 0;
+    border-bottom: 2px solid orangered;
+    border-radius: 0;
+}
+
+form input:focus{
+    background-color: transparent;
+    box-shadow: none !important;
+}
